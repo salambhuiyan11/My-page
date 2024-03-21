@@ -1,0 +1,421 @@
+*{margin:0;padding:0}
+body{
+	font-family:Sans-Serif, Arial !important;
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+}
+body, html{
+	height:100%;
+}
+img{
+	max-width:100%
+}
+a{
+	text-decoration:none
+}
+a:hover{
+	text-decoration:underline
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight:normal;
+	margin-top:10px;
+	margin-bottom:10px
+}
+p{
+	line-height: 150%;
+	margin-bottom: 2em;
+}
+.full-wrap {
+	width: 100%;
+	 height: auto;
+}
+.wrapper {
+	width:1200px;
+	margin:0 auto; 
+	display:block;
+}
+.fix{
+	overflow:hidden;
+}
+
+.d-inline{
+	display: inline;
+}
+.d-inline-block{
+	display: inline-block;
+}
+.d-block{
+	display: block;
+}
+.aligncenter{
+	display:block;
+	margin:0 auto;
+}
+.floatleft{
+	float:left
+}
+.floatright{
+	float:right
+}
+}
+a:visited{
+	color: green;
+}
+a:focus{
+	background: orange;
+}
+a:active{
+	background: blue;
+}
+/*----------------------------------*/
+
+#header{
+	height: 100px;
+	background: #fff;
+}
+#header menu span{
+    color: #FCAB1A;
+    font-weight: 600;
+    font-size: 25px;
+}
+#header menu{
+	padding-top: 40px;
+}
+#header menu ul{
+	list-style-type: none;
+}
+#header menu ul li a{
+	padding: 15px 30px;
+    background: #FCAB1A;
+    border-radius: 15px 0px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+#header menu ul li a:hover{
+	background: #001E36;
+}
+
+/*----Start Hero section-------*/
+
+#Hero-section{
+	padding-bottom: 100px;
+	background: #fff7f7;
+}
+
+#hero-sec-left-side{
+	margin-top: 150px;
+	width: 550px;
+}
+
+#hero-sec-left-side h2{
+	color: #29324D;
+	font-weight: 800;
+	font-size: 60px;
+	line-height: 70px;
+}
+#hero-sec-left-side span{
+	color: #FCAB1A;
+	font-weight: 800;
+	font-size: 45px;
+	line-height: 60px;
+}
+
+#hero-sec-left-side p{
+	color: #29324D;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 35px;
+	margin-top: 20px;
+}
+
+#hero-sec-left-side a{
+	padding: 20px 40px;
+    background: #FCAB1A;
+    border-radius: 35px 0px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    overflow: hidden;
+   }
+
+#hero-sec-left-side a:hover{
+    background: #001E36;
+   }
+
+#hero-sec-right-side{
+	width: 550px;
+	height: 500px;
+	margin-top: 100px
+}
+
+#hero-sec-right-side .div-bg-color{
+	width: 550px;
+	height: 500px;
+	background: #FCAB1A;
+	border-radius: 200px 0px 200px 0px;
+}
+
+#hero-sec-right-side img{
+	width: 400px;
+    margin-left: 68px;
+    margin-top: 44px;
+    border-radius: 0px 0px 143px 119px;
+
+}
+
+/*----Start experience section-------*/
+
+
+#experience-section{
+	background: #fff;
+	padding-bottom: 100px;
+}
+
+#experience-section .experience-sec-top{
+	margin-top: 100px;
+
+}
+
+#experience-section .experience-sec-top h2{
+	color: #29324D;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 60px;
+	text-align: center;
+}
+#experience-section .experience-sec-top span{
+	color: #FCAB1A;
+	font-weight: 800;
+    font-size: 50px;
+    line-height: 60px;
+
+}
+
+#experience-section .experience-sec-bottom{
+	margin-top: 65px;
+}
+
+#experience-section .experience-box-common{
+
+	width: 270px;
+	height: 300px;
+	background: #FCAB1A;
+	display: inline-block;
+	border-radius: 50px 0px;
+	-webkit-box-shadow: -9px 19px 20px -3px rgba(252,171,26,0.22); 
+	box-shadow: -9px 19px 20px -3px rgba(252,171,26,0.22);
+}
+
+#experience-section .experience-box-common img{
+
+	margin-top: 30px;
+	margin-left: 30px;
+
+}
+
+#experience-section .experience-box-common h2{
+
+	font-size: 22px;
+	font-weight: 600;
+	text-align: center;
+	color: #fff;
+	margin-top: 15px;
+	
+}
+
+#experience-section .experience-sec-bottom img{
+
+	height: 200px;
+
+}
+
+#experience-section .experience-3 img{
+
+	height: 150px;
+	margin-top: 61px;
+}
+#experience-section .experience-3 h2{
+
+	margin-top: 35px;
+
+}
+
+#experience-section .experience-2{
+
+	margin-left:40px;
+}
+#experience-section .experience-3{
+
+	margin-left:40px;
+}
+
+
+/*---------start service section -----------*/
+
+
+#service-section{
+
+	background: #fff7f7;
+	padding: 100px 0px;
+}
+
+#service-section .service-sec-left{
+
+	width: 550px;
+	float: left;
+	display: inline-block;
+}
+
+#service-section .service-sec-left h2{
+
+	color: #29324D;
+	font-weight: 800;
+	font-size: 47px;
+	line-height: 57px;
+	margin: 0px !important;
+
+}
+
+#service-section .service-sec-left span{
+
+	color: #FCAB1A;
+	font-weight: 800;
+	font-size: 47px;
+	line-height: 57px;
+
+}
+
+#service-section .service-sec-left p{
+
+	color: #29324D;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 35px;
+    margin-top: 20px;
+
+}
+
+#service-section .service-sec-left a{
+
+	padding: 20px 40px;
+    background: #FCAB1A;
+    border-radius: 35px 0px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+
+#service-section .service-sec-left a:hover{
+
+   background: #001E36;
+}
+
+#service-section .service-sec-right{
+
+	width: 600px;
+	float: right;
+	display: inline-block;
+}
+
+#service-section .service-sec-right img{
+
+	    height: 400px;
+}
+
+/*---------start service section -----------*/
+
+#What-our-client-say{
+	padding: 100px 0px;
+	background: #fff;
+}
+
+#What-our-client-say h2{
+	color: #29324D;
+	font-weight: 800;
+	font-size: 50px;
+	line-height: 60px;
+	text-align: center;
+	margin: 0px;
+}
+
+#What-our-client-say .testomonial-common{
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+	margin-top: 80px;
+	padding: 30px;
+	border:2px solid rgba(252,171,26,0.22);
+	border-radius: 100px 0px;
+
+	-webkit-box-shadow: -9px 12px 17px -4px rgba(252,171,26,0.72); 
+box-shadow: -9px 12px 17px -4px rgba(252,171,26,0.72);
+}
+
+#What-our-client-say .testomonial-common span{
+
+	color: #6d7170;
+	font-style: italic;
+	line-height: 30px;
+}
+
+#What-our-client-say .testomonial-common h3{
+
+	text-align: center;
+	margin-top: 15px;
+	font-weight: 700;
+	font-size: 21px;
+
+}
+
+#What-our-client-say .testomonial-common{
+
+}
+
+
+
+.testomonial-common-img-wrapper{
+
+	margin-left: 122px;
+	margin-top: 15px;
+
+}
+.testomonial-common-img-wrapper .img-star{
+
+	margin-left: -16px;
+    margin-top: 15px;
+
+}
+
+.testomonial-1{
+	float: left;
+	margin-left: 30px
+}
+.testomonial-2{
+	margin-left: 38px; 
+}
+.testomonial-3{
+	float: right;
+}
+
+/*--------star footer section------*/
+
+#footer{
+	background: #FCAB1A;
+	height: 100px;
+}
+
+#footer p{
+	text-align: center;
+	color: #fff;
+	padding-top: 40px;
+	font-size: 20px;
+}
